@@ -49,7 +49,7 @@ After that, `darwin-rebuild` exists and you're on the normal workflow below.
 
 ### Validate without applying
 
-Before your first switch, you can check that the config builds without touching your system:
+Once Nix is installed (`bootstrap.sh` step 1 handles that), you can check that the config builds without touching your system - handy when you have edited something:
 
 ```sh
 nix flake check --no-build
