@@ -25,7 +25,9 @@
     finder.CreateDesktop = false;          # clean desktop
     trackpad.Clicking = true;              # tap to click
   };
+  home-manager.backupFileExtension = "backup";
   nix-homebrew = {
+    autoMigrate = true;
     enable = true;
     inherit user;
   };
