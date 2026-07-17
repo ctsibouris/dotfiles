@@ -39,6 +39,8 @@
     brews = [
       "herdr"
       "node"
+      "python@3.11"
+      "powershell"
     ];
     casks = [
       "wezterm"
